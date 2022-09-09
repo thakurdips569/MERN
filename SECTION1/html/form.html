@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input & output</title>
+
+
+</head>
+<body>
+    <!-- we are design a form here -->
+    <form action="backend.php">
+    <h2>this is HTML forms tutorial</h2>
+    <label for="Name">Name:</label>
+    <div>
+       <input type="text" name="myname" id="Name">
+    </div>
+    <br>
+    <label for="Role:">Role:</label>
+    <div>
+        <input type="text" name="myrole" id="Role:">
+    </div>
+    <br>
+    <label for="Email:">Email:</label>
+    <div>
+        <input type="email" name="myEmail" id="Email:">
+    </div>
+    <br>
+    <label for="Date:">Date:</label>
+    <div>
+      <input type="date" name="mydate" id="Date:">
+    </div>
+    <br>
+    <div>
+        Bonus:<input type="number" name="mynumber">
+    </div>
+    <br>
+    <div>
+        Are you eligible:<input type="checkbox" name="myeligiblity">
+    </div>
+    <br>
+    <div>
+        Gender:Male<input type="radio" name="mygender">Female<input type="radio" name="mygender">other<input type="radio" name="mygender">
+    </div>
+    <br>
+   <div>
+       write about yourself:- <br></yourself:-br><textarea name="write about yourself" id="" cols="50" rows="10"></textarea>
+   </div>
+   <br>
+   <div>
+   <label for="car">car</label>
+   <select name="mycar" id="car">
+       <option value="indica">indica</option>
+       <option value="porse">porse</option>
+       <option value="audi">audi</option>
+       <option value="swift">swift</option>
+    </select>
+               </div>
+               <br><br>
+   
+        <div>
+            <label for="cvv">cvv</label>
+            <input type="password" name="cvv" id="mycvv">
+        </div><br><br>
+        <div>
+       <input type="Submit" value="submit now">
+       </div><br>
+       <div>
+       <input type="Reset" value="reset now">
+    </div><br>
+         <!-- SOME DATALIST CONTENT ARE HERE -->
+
+    <label>city</label>
+    <input placeholder="enter the city name" list="city">
+    <datalist id="city">
+        <option>aligarh</option>
+        <option>allahabad</option>
+        <option>kanpur</option>
+        <option>lucknow</option>
+        <option>amethi</option>
+    </datalist> <br><br>
+   </form>
+
+   <!-- WE ARE MAKING CALL USING HTML -->
+   <br><br>
+   <hr>
+   <a href="tel :+917266836766">call me</a>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.main{
+    /* border: 2px solid greenyellow; */
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: repeat(6,2fr);
+    grid-auto-rows: 520px;
+    grid-auto-columns: minmax(200px,auto);
+    grid-gap: 20px;
+}
+div.container{
+      
+    border-radius: 4px;
+    display: grid;
+    grid-gap: 20px;
+}
+#container1{
+    border: 2px solid cyan;
+    /* background-color: aquamarine; */
+}
+/* #container2{
+    display: grid;
+    grid-gap: 20px;
+} */
+div.item2{
+    border: 1px dashed crimson;
+    border-radius: 5px;
+}
+/* #container3{
+    display: grid;
+    grid-gap: 20px;
+    
+} */
+div.item3{
+    border: 2px dotted rgb(189, 182, 94);
+    border-radius: 5px;
+}
+div.item4{
+    border: 2px double dodgerblue;
+    border-radius: 5px;
+}
+div.item6{
+    border: 3px inset green;
+    border-radius: 5px;
+}
+#container6{
+    display: grid;
+    grid-template-rows: repeat(12,1fr);
+}
+div.item12{
+    border: 3px outset peru;
+    border-radius: 5px;
+}
+
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+
+        <div class="container" id="container1">1</div>
+        
+        <div class="container" id="container2">
+            <div class="item2">1</div>
+            <div class="item2">2</div>
+        </div>
+
+        <div class="container" id="container3">
+            <div class="item3">1</div>
+            <div class="item3">2</div>
+            <div class="item3">3</div>
+        </div>
+
+        <div class="container" id="container4">
+            <div class="item4">1</div>
+            <div class="item4">2</div>
+            <div class="item4">3</div>
+            <div class="item4">4</div>
+        </div>
+
+        <div class="container" id="container5">
+            <div class="item6">1</div>
+            <div class="item6">2</div>
+            <div class="item6">3</div>
+            <div class="item6">4</div>
+            <div class="item6">5</div>
+            <div class="item6">6</div>
+        </div>
+
+        <div class="container" id="container6">
+            <div class="item12">1</div>
+            <div class="item12">2</div>
+            <div class="item12">3</div>
+            <div class="item12">4</div>
+            <div class="item12">5</div>
+            <div class="item12">6</div>
+            <div class="item12">7</div>
+            <div class="item12">8</div>
+            <div class="item12">9</div>
+            <div class="item12">10</div>
+            <div class="item12">11</div>
+            <div class="item12">12</div>
+        </div>
+    </div>
+</body>
+</html>
